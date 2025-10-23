@@ -12,6 +12,7 @@
         reg = <0>;
         width = <160>;
         height = <68>;
+        invert-colors; // Thêm dòng này
     };
 };
 
@@ -20,3 +21,4 @@
         zephyr,display = &nice_view;
     };
 };
+
